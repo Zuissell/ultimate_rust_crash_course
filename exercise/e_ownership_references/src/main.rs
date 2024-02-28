@@ -54,11 +54,16 @@ fn bedazzle(cadena: &mut String) {
 }
 
 fn eat(cadena: String) -> bool {
+    /*
     if cadena.starts_with("b") && cadena.contains("a") {
         true
     } else {
         false
     }
+    */
+   
+    // También podemos devolver el resultado de la comparación para este caso.
+    cadena.starts_with("b") && cadena.contains("a")
 }
 
 fn change(cadena: &mut String) {
